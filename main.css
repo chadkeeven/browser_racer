@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	margin: 10%;
+}
+
+#playerOne {
+	background-color: red;
+	margin-bottom: 10%;
+}
+
+#playerTwo {
+	background-color: blue;
+}
+
+.racePiece {
+	height: 10vh;
+	width: 10vh;
+}
