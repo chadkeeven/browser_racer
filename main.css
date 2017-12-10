@@ -1,5 +1,25 @@
 body {
 	margin: 0;
+	font-family: 'Press Start 2P', cursive;
+}
+
+button {
+	padding: 5%;
+	border-radius: 10%;
+	font-size: 200%;
+	background-color: lawngreen;
+}
+
+#gameTitle {
+	width: 100vw;
+	text-align: center;
+	font-size: 200%;
+	margin-top: 20%;
+}
+#playButton {
+	width: 100vw;
+	text-align: center;
+
 }
 
 .container {

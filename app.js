@@ -10,11 +10,13 @@ $(document).ready(function() {
 
 		if (pOneMargin < 90){
 			pOneMargin += 5;
-			console.log(pOneMargin);
+			//console.log(pOneMargin);
 			$("#playerOne").css('margin-left', pOneMargin + '%');
 			if (pOneMargin >= 90){
 				setTimeout(function(){alert("Player One Won!");}, 500);
 			}
+		}else{
+			alert("Game has ended");
 		}
 	}
 });
