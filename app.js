@@ -3,8 +3,11 @@ $(document).ready(function() {
 	//margin for playerOne, used to move block
 	var pOneMargin = 0;
 	//event listener for key press to move box
-	$(this).keyup(function(){
-		addMarginToOne(); 		
+	$(this).keyup(function(event){
+		//tests if key up was 'a'
+		if (event.which === 65) {
+			addMarginToOne();
+		} 		
 	});
 	/*function that adds 5% margin to
 	playone box, checks if less than 100% margin.
